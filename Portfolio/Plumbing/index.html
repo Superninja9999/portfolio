@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>RapidFlow Plumbing</title>
+
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #222;
+  }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #111, #333);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+
+  .hero p {
+    font-size: 18px;
+    opacity: 0.85;
+    margin-top: 10px;
+  }
+
+  /* BUTTONS */
+  .button {
+    display: inline-block;
+    margin: 15px 10px 0;
+    padding: 14px 22px;
+    background: #2d6cdf;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.2s;
+  }
+
+  .button:hover {
+    background: #1f56b8;
+    transform: translateY(-2px);
+  }
+
+  /* SECTIONS */
+  .container {
+    max-width: 900px;
+    margin: -40px auto 40px;
+    padding: 0 20px;
+  }
+
+  .card {
+    background: white;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  /* SERVICES GRID */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+  }
+
+  .service {
+    background: #f0f2f5;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    color: gray;
+  }
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>RapidFlow Plumbing</h1>
+  <p>Fast, reliable plumbing solutions for your home.</p>
+
+  <a href="tel:+15551234567" class="button">Call Now</a>
+</div>
+
+<div class="container">
+
+  <!-- SERVICES -->
+  <div class="card">
+    <h2>Services</h2>
+
+    <div class="grid">
+      <div class="service">Pipe Repairs</div>
+      <div class="service">Leak Detection</div>
+      <div class="service">Water Heater Installation</div>
+      <div class="service">Drain Cleaning</div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="card">
+    <h2>About Us</h2>
+    <p>
+      RapidFlow Plumbing is a team of licensed professionals dedicated to providing fast and reliable plumbing services.
+      We ensure your home's plumbing system operates efficiently and without issues.
+    </p>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="card" id="contact">
+    <h2>Contact</h2>
+    <p>Phone: (555) 123-4567</p>
+    <p>Email: rapidflow@email.com</p>
+
+    <a href="tel:+15551234567" class="button">Call Now</a>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 RapidFlow Plumbing
+</footer>
+
+</body>
+</html>
